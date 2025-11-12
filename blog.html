@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore insights on Conversational AI, productivity automation, and business transformation. Read expert articles on Claude AI, customer service innovation, and digital transformation strategies.">
+    <meta name="keywords" content="AI Blog, Conversational AI, Claude AI, Business Automation, Customer Service, AI Strategy, Digital Transformation">
+    <meta name="author" content="Upflex Digital">
+    <meta property="og:title" content="Blog - Conversational AI Insights | Upflex Digital">
+    <meta property="og:description" content="Discover the latest insights on conversational AI, business automation, and digital transformation strategies.">
+    <meta property="og:type" content="website">
+    <title>Blog - Conversational AI Insights | Upflex Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        
+        .animate-slide-in-left {
+            animation: slideInLeft 0.6s ease-out forwards;
+        }
+        
+        .animate-slide-in-right {
+            animation: slideInRight 0.6s ease-out forwards;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.1) 0%, rgba(167, 139, 250, 0.1) 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+        }
+        
+        .button-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .button-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(59, 130, 246, 0.3);
+        }
+        
+        header {
+            backdrop-filter: blur(10px);
+            background-color: rgba(17, 24, 39, 0.8);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 border-b border-gray-800">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe" class="flex items-center gap-2 hover:opacity-80 transition-opacity duration-300">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <span class="text-xl font-bold text-white hidden sm:inline">Upflex Digital</span>
+                </a>
+            </div>
+            
+            <a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe" class="text-gray-300 hover:text-white transition-colors duration-300 flex items-center gap-2">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back</span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Blog Hero Section -->
+    <section class="relative py-20 sm:py-24 overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-20 right-10 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse"></div>
+            <div class="absolute -bottom-32 left-20 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse" style="animation-delay: 2s;"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight mb-6 animate-fade-in-up">
+                <span class="block text-white mb-2">Our Blog</span>
+                <span class="gradient-text">Conversational AI Insights & Strategies</span>
+            </h1>
+            
+            <p class="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style="animation-delay: 0.1s;">
+                Discover expert insights on conversational AI, business automation, customer service innovation, and digital transformation strategies to help your organization thrive in the AI era.
+            </p>
+        </div>
+    </section>
+
+    <!-- Blog Purpose Section -->
+    <section class="py-16 sm:py-20 bg-gray-800 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Purpose 1 -->
+                <div class="bg-gray-900 rounded-2xl p-8 border border-gray-700">
+                    <div class="w-14 h-14 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Latest AI Trends</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Stay updated with the latest developments in conversational AI, machine learning innovations, and emerging technologies that are reshaping business landscapes.
+                    </p>
+                </div>
+                
+                <!-- Purpose 2 -->
+                <div class="bg-gray-900 rounded-2xl p-8 border border-gray-700">
+                    <div class="w-14 h-14 bg-gradient-to-br from-purple-400 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Implementation Guides</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Learn practical strategies for implementing conversational AI in your organization, from planning and integration to optimization and best practices.
+                    </p>
+                </div>
+                
+                <!-- Purpose 3 -->
+                <div class="bg-gray-900 rounded-2xl p-8 border border-gray-700">
+                    <div class="w-14 h-14 bg-gradient-to-br from-pink-400 to-pink-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5h.01v.01H12v-.01z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Success Stories</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Explore real-world case studies and success stories showcasing how organizations leverage conversational AI to drive growth and transform operations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post -->
+    <section class="py-20 sm:py-24 bg-gray-900 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-4xl sm:text-5xl font-bold mb-4 tracking-tight">
+                    Latest Article
+                </h2>
+                <p class="text-xl text-gray-400">
+                    Read our most recent insights on conversational AI and business transformation.
+                </p>
+            </div>
+            
+            <!-- Featured Post Card -->
+            <div class="card-hover bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 hover:border-blue-500 shadow-xl">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-0">
+                    <!-- Featured Image Section -->
+                    <div class="lg:col-span-1 bg-gradient-to-br from-blue-500 to-purple-600 min-h-64 lg:min-h-full flex items-center justify-center p-8">
+                        <div class="text-center">
+                            <svg class="w-20 h-20 text-white mx-auto mb-4 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                            <p class="text-white text-sm font-semibold">The Future of Customer Service</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Featured Content Section -->
+                    <div class="lg:col-span-2 p-8 sm:p-12">
+                        <div class="mb-4 flex items-center gap-2">
+                            <span class="inline-block bg-blue-500 bg-opacity-20 text-blue-400 px-4 py-2 rounded-full text-sm font-semibold">Featured</span>
+                            <span class="text-gray-500 text-sm">November 12, 2025</span>
+                        </div>
+                        
+                        <h3 class="text-3xl sm:text-4xl font-bold mb-6 leading-tight text-white">
+                            The Future of Customer Service: How Conversational AI is Revolutionizing Business Communication
+                        </h3>
+                        
+                        <p class="text-gray-300 leading-relaxed mb-8 text-lg">
+                            Conversational AI, powered by advanced language models like Claude, is revolutionizing customer service by transforming how businesses interact with customers. Unlike traditional chatbots, modern conversational AI understands context, maintains conversation history, and provides personalized responses at scale. It enables 24/7 support, reduces manual workload by 60-80%, and improves customer satisfaction through consistent, accurate service across multiple languages. Beyond efficiency gains, conversational AI drives revenue growth through enhanced retention, proactive engagement, and upselling opportunities.
+                        </p>
+                        
+                        <div class="flex items-center gap-4">
+                            <a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe/blog/the-future-of-customer-service-how-conversational-.html" class="button-hover bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 inline-flex items-center gap-2">
+                                Read Full Article
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <div class="text-gray-500 text-sm">
+                                <i class="fas fa-clock mr-2"></i>
+                                <span>8 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Blog Posts Section -->
+    <section class="py-20 sm:py-24 bg-gray-800 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-4xl sm:text-5xl font-bold mb-4 tracking-tight">
+                    More Articles Coming Soon
+                </h2>
+                <p class="text-xl text-gray-400">
+                    We're continuously publishing new content on conversational AI, business automation, and digital transformation strategies.
+                </p>
+            </div>
+            
+            <!-- Placeholder Cards for Future Posts -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Placeholder 1 -->
+                <div class="card-hover bg-gray-900 rounded-2xl p-8 border border-gray-700 hover:border-purple-500 flex flex-col justify-between min-h-96">
+                    <div>
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-400">Implementing AI in Your Enterprise</h3>
+                        <p class="text-gray-500 leading-relaxed mb-4">
+                            A comprehensive guide to planning, deploying, and optimizing conversational AI solutions for large-scale enterprise operations.
+                        </p>
+                    </div>
+                    <div class="text-gray-600 text-sm">
+                        <i class="fas fa-calendar mr-2"></i>
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+                
+                <!-- Placeholder 2 -->
+                <div class="card-hover bg-gray-900 rounded-2xl p-8 border border-gray-700 hover:border-pink-500 flex flex-col justify-between min-h-96">
+                    <div>
+                        <div class="w-12 h-12 bg-gradient-to-br from-pink-400 to-pink-600 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-400">AI Ethics and Responsible Implementation</h3>
+                        <p class="text-gray-500 leading-relaxed mb-4">
+                            Exploring best practices for ethical AI deployment, ensuring transparency, fairness, and responsible use of conversational AI systems.
+                        </p>
+                    </div>
+                    <div class="text-gray-600 text-sm">
+                        <i class="fas fa-calendar mr-2"></i>
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+                
+                <!-- Placeholder 3 -->
+                <div class="card-hover bg-gray-900 rounded-2xl p-8 border border-gray-700 hover:border-green-500 flex flex-col justify-between min-h-96">
+                    <div>
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-400">Measuring ROI: AI Impact on Your Bottom Line</h3>
+                        <p class="text-gray-500 leading-relaxed mb-4">
+                            Learn how to measure the business impact of conversational AI implementations and calculate return on investment across your organization.
+                        </p>
+                    </div>
+                    <div class="text-gray-600 text-sm">
+                        <i class="fas fa-calendar mr-2"></i>
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+                
+                <!-- Placeholder 4 -->
+                <div class="card-hover bg-gray-900 rounded-2xl p-8 border border-gray-700 hover:border-yellow-500 flex flex-col justify-between min-h-96">
+                    <div>
+                        <div class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-400">Scaling AI: From Pilot to Production</h3>
+                        <p class="text-gray-500 leading-relaxed mb-4">
+                            Strategies for scaling conversational AI solutions from proof-of-concept pilots to full production deployments across your organization.
+                        </p>
+                    </div>
+                    <div class="text-gray-600 text-sm">
+                        <i class="fas fa-calendar mr-2"></i>
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription Section -->
+    <section class="py-20 sm:py-24 bg-gradient-to-r from-blue-600 to-purple-600 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-white rounded-full mix-blend-multiply filter blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full mix-blend-multiply filter blur-3xl" style="animation-delay: 2s;"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl sm:text-5xl font-bold mb-6 tracking-tight text-white">
+                Stay Updated on AI Insights
+            </h2>
+            
+            <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                Subscribe to our newsletter to receive the latest articles, insights, and strategies on conversational AI and business transformation directly in your inbox.
+            </p>
+            
+            <form class="flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto" id="newsletter-form">
+                <input 
+                    type="email" 
+                    placeholder="Enter your email address" 
+                    required
+                    class="flex-1 px-6 py-4 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                >
+                <button 
+                    type="submit"
+                    class="button-hover bg-white text-blue-600 font-bold py-4 px-8 rounded-lg transition-all duration-300 hover:shadow-lg"
+                >
+                    Subscribe
+                </button>
+            </form>
+            
+            <p class="text-blue-100 text-sm mt-4">
+                We respect your privacy. Unsubscribe at any time.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <span class="text-xl font-bold text-white">Upflex Digital</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Empowering businesses with intelligent conversational AI powered by Claude from Anthropic.
+                    </p>
+                </div>
+                
+                <!-- Product -->
+                <div>
+                    <h3 class="text-white font-bold mb-4">Product</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe#pricing" class="text-gray-400 hover:text-white transition-colors duration-300">Pricing</a></li>
+                        <li><a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company -->
+                <div>
+                    <h3 class="text-white font-bold mb-4">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe#careers" class="text-gray-400 hover:text-white transition-colors duration-300">Careers</a></li>
+                        <li><a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe#contact" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal -->
+                <div>
+                    <h3 class="text-white font-bold mb-4">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe#security" class="text-gray-400 hover:text-white transition-colors duration-300">Security</a></li>
+                        <li><a href="https://UpflexDigital.github.io/unleash-productivity-with-conversational-ai-2025-11-12-c90fe#cookies" class="text-gray-400 hover:text-white transition-colors duration-300">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Divider -->
+            <div class="border-t border-gray-800 py-8">
+                <!-- Social Links -->
+                <div class="flex justify-center gap-6 mb-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="GitHub">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Facebook">
+                        <i class="fab fa-facebook text-xl"></i>
+                    </a>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="text-center mb-6">
+                    <p class="text-gray-400">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <a href="mailto:info@upflexdigital.com" class="hover:text-white transition-colors duration-300">info@upflexdigital.com</a>
+                    </p>
+                </div>
+                
+                <!-- Copyright -->
+                <div class="text-center text-gray-500 text-sm">
+                    <p>&copy; 2025 Upflex Digital. All rights reserved. | Powered by Claude AI from Anthropic</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Newsletter Form Handling
+            const newsletterForm = document.getElementById('newsletter-form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const email = this.querySelector('input[type="email"]').value;
+                    // In a real implementation, this would send to a backend service
+                    alert('Thank you for subscribing! Check your email for confirmation.');
+                    this.reset();
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
